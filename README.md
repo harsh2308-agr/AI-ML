@@ -1,94 +1,113 @@
 # AI & ML Projects Hub
 
-A curated collection of hands-on AI, ML, RAG, and agentic workflows built across multiple experiments and mini-projects.
+<div align="center">
 
-This repository brings together practical implementations spanning:
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Agentic%20%26%20RAG-7C3AED?style=for-the-badge)
+![ML](https://img.shields.io/badge/ML-Experiments-10B981?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Projects-FF6B6B?style=for-the-badge)
 
-- Agentic AI orchestration and tool-calling patterns
-- Retrieval-Augmented Generation (RAG) experiments
+</div>
+
+A polished collection of hands-on AI, ML, RAG, and agentic experiments built across multiple learning and project tracks.
+
+This repository brings together practical work in:
+
+- Agentic AI orchestration and tool-calling workflows
+- Retrieval-Augmented Generation (RAG)
 - Generative AI exploration
-- Machine learning project work and learning exercises
+- Machine learning projects and experiments
 
-## Repository Overview
+## Overview
 
-| Folder | Description |
-| --- | --- |
-| Agentic AI | Agent-based workflows, runnable pipelines, and tool orchestration examples |
-| RAGProject | Retrieval and vector-store based project with document loaders, retrievers, and app entrypoints |
-| RAG Project | Additional RAG-related exploration and document processing work |
-| Generative-AI | Generative AI models and experiments |
-| ML project 1 | Machine learning practice and experimentation |
-| ML project 2 | Additional ML learning and project work |
+This workspace contains multiple mini-projects and AI experiments, each focused on a different area of modern AI development.
+
+| Folder | Focus | Description |
+| --- | --- | --- |
+| Agentic AI | Agent workflows | Modular agent logic, runnable pipelines, and tool orchestration examples |
+| RAGProject | RAG + vector search | Document ingestion, retrievers, vector DB usage, and app entrypoints |
+| RAG Project | Retrieval workflows | Additional document-based retrieval and pipeline experimentation |
+| Generative-AI | LLM experimentation | Generative AI prototypes and model usage exploration |
+| ML project 1 | ML basics | Practical machine learning learning and experimentation |
+| ML project 2 | ML growth | Additional ML project work and implementation practice |
 
 ## Featured Projects
 
-### 1. Agentic AI
-This area focuses on building autonomous or semi-autonomous AI workflows using modular components, tool calling, sequencing, and runnable orchestration patterns.
+### Agentic AI
+This folder focuses on agent-based systems and orchestration patterns. It includes reusable building blocks for:
 
-Typical components include:
-- agent logic and execution flows
-- tool invocation layers
-- sequenced and parallel task routines
-- reusable AI pipeline building blocks
+- task sequencing and execution flows
+- parallel and serial runnable components
+- tool invocation patterns
+- modular AI pipeline behavior
 
-### 2. RAGProject
-This project demonstrates retrieval-augmented generation, combining document loaders, retrievers, and vector storage to ground AI responses with external knowledge.
+### RAGProject
+This project demonstrates retrieval-augmented generation by combining:
 
-It includes:
-- document loaders for PDFs, text, and notes
-- retrieval strategies such as MMR and multi-query workflows
-- vector database integration
-- application entrypoints for querying and database creation
+- document loaders
+- retriever strategies
+- vector storage integration
+- Q&A and app-style querying flows
 
-### 3. Generative AI
-This folder contains experiments related to generative AI and model-driven workflows, showcasing practical prototyping around LLM usage and generation patterns.
+### Generative AI
+This area explores generative AI ideas, LLM-oriented prototypes, and experimentation around model-driven workflows.
+
+### Machine Learning Projects
+The ML project folders contain learning-focused experiments and smaller implementations that build practical understanding of machine learning workflows.
 
 ## Tech Stack
 
-The projects in this workspace are primarily centered around:
-
 - Python
-- LangChain / LLM-based workflows
-- RAG and vector search concepts
+- LLM / Generative AI workflows
+- RAG and vector retrieval systems
 - Chroma / vector database usage
-- document ingestion and retrieval pipelines
-- AI agent and orchestration logic
+- Document processing and loaders
+- Agent orchestration and task execution patterns
 
 ## Getting Started
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/harsh2308-agr/AI-ML.git
-   cd AI-ML
-   ```
+
+```bash
+git clone https://github.com/harsh2308-agr/AI-ML.git
+cd AI-ML
+```
 
 2. Create and activate a virtual environment:
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate
-   ```
 
-3. Install dependencies for the relevant project:
-   ```bash
-   pip install -r "Agentic AI/requirements.txt"
-   ```
-   or
-   ```bash
-   pip install -r "RAGProject/requirements.txt"
-   ```
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
 
-4. Run the project script or app you want to explore.
+3. Install dependencies for the project you want to run:
+
+```bash
+pip install -r "Agentic AI/requirements.txt"
+```
+
+or
+
+```bash
+pip install -r "RAGProject/requirements.txt"
+```
+
+4. Run the relevant script or app from the project folder.
 
 ## Notes
 
-- Some folders may contain experimental or learning-focused code and may require additional setup.
-- Environment variables and local secrets are intentionally excluded from version control.
-- This repository is best used as a portfolio and experimentation workspace for AI/ML learning and prototyping.
+- Some folders are exploratory or learning-focused and may need project-specific setup.
+- Local environment variables and secrets are intentionally excluded from version control.
+- This repository functions as a portfolio and experimentation workspace for AI/ML learning.
 
 ## License
 
-This project is shared for educational and portfolio purposes. Please check the individual project folders for any specific licensing or usage notes.
+This project is shared for educational and portfolio purposes. Please review individual project folders for any project-specific usage notes or licensing details.
 
 ---
 
-Built with curiosity, experimentation, and a passion for AI-powered solutions.
+<div align="center">
+
+Built with curiosity, experimentation, and a passion for AI-driven solutions.
+
+</div>
