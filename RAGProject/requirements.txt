@@ -1,0 +1,57 @@
+# ==============================
+# RAG Application Requirements
+# Model: Mistral AI | Vector DB: ChromaDB
+# ==============================
+
+# --- Core LLM / Mistral AI ---
+mistralai>=1.0.0
+
+# --- Vector Database ---
+chromadb>=0.5.0
+
+# --- Orchestration Framework (RAG pipeline, chaining, prompts) ---
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-mistralai>=0.1.0
+langchain-chroma>=0.1.0
+
+# --- Embeddings ---
+sentence-transformers>=2.7.0
+tiktoken>=0.7.0
+
+# --- Document Loading & Parsing ---
+pypdf>=4.2.0
+python-docx>=1.1.0
+unstructured>=0.14.0
+beautifulsoup4>=4.12.0
+markdown>=3.6
+
+# --- Text Splitting / Preprocessing ---
+nltk>=3.8.1
+
+# --- Environment & Configuration ---
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+
+# --- API Layer (to serve the RAG app) ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# --- HTTP Requests ---
+requests>=2.32.0
+httpx>=0.27.0
+
+# --- Data Handling ---
+numpy>=1.26.0
+pandas>=2.2.0
+
+# --- Logging / Utilities ---
+tqdm>=4.66.0
+loguru>=0.7.2
+
+# --- Optional: Streamlit UI (for quick frontend/demo) ---
+streamlit>=1.35.0
+
+# --- Optional: Testing ---
+pytest>=8.2.0

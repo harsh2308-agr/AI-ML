@@ -1,0 +1,56 @@
+# Ignore everything by default
+*
+
+# Keep project folders themselves
+!*/
+
+# Keep source and project files only
+!**/*.py
+!**/*.ipynb
+!**/*.md
+!**/*.toml
+!**/*.yml
+!**/*.yaml
+!**/*.json
+!**/*.cfg
+!**/*.ini
+!**/*.sql
+!**/*.example
+!**/*.bat
+!**/*.sh
+!**/requirements*.txt
+!**/pyproject.toml
+!**/setup.py
+!**/Dockerfile
+!**/Makefile
+!**/.gitignore
+!**/.gitattributes
+
+# Ignore secrets and generated/data folders
+**/.env
+**/.env.*
+**/*.env
+**/*.env.*
+**/chroma_db/**
+**/__pycache__/**
+**/.ipynb_checkpoints/**
+**/.venv/**
+**/venv/**
+**/node_modules/**
+**/.pytest_cache/**
+**/.mypy_cache/**
+**/.ruff_cache/**
+**/*.pyc
+**/*.pyo
+**/*.sqlite3
+**/*.db
+**/*.pdf
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.mp4
+**/*.zip
+**/*.rar
+**/*.log
+**/.DS_Store
